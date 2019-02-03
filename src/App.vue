@@ -3,11 +3,9 @@
 </template>
 
 <script>
-import Tooltip from "@/components/Tooltip"
-
 export default {
   components: {
-    Tooltip
+    Tooltip: () => import('@/components/Tooltip')
   }
 }
 </script>
